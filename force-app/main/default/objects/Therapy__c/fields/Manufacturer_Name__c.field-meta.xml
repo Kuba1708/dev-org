@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manufacturer_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Manufacturer Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All We Care</fullName>
+                <default>false</default>
+                <label>All We Care</label>
+            </value>
+            <value>
+                <fullName>B. Braun</fullName>
+                <default>false</default>
+                <label>B. Braun</label>
+            </value>
+            <value>
+                <fullName>Coloplast</fullName>
+                <default>false</default>
+                <label>Coloplast</label>
+            </value>
+            <value>
+                <fullName>Convatec</fullName>
+                <default>false</default>
+                <label>Convatec</label>
+            </value>
+            <value>
+                <fullName>Dansac</fullName>
+                <default>false</default>
+                <label>Dansac</label>
+            </value>
+            <value>
+                <fullName>Eakin / Pelican</fullName>
+                <default>false</default>
+                <label>Eakin / Pelican</label>
+            </value>
+            <value>
+                <fullName>Eurotec</fullName>
+                <default>false</default>
+                <label>Eurotec</label>
+            </value>
+            <value>
+                <fullName>Hollister</fullName>
+                <default>false</default>
+                <label>Hollister</label>
+            </value>
+            <value>
+                <fullName>Marlen</fullName>
+                <default>false</default>
+                <label>Marlen</label>
+            </value>
+            <value>
+                <fullName>OxMed</fullName>
+                <default>false</default>
+                <label>OxMed</label>
+            </value>
+            <value>
+                <fullName>Salt</fullName>
+                <default>false</default>
+                <label>Salt</label>
+            </value>
+            <value>
+                <fullName>Welland</fullName>
+                <default>false</default>
+                <label>Welland</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,45 @@
+<template>
+    <lightning-card>
+    
+    <div class="container slds-m-horizontal_large">
+        <div class="text-container">
+            <ul>
+                <li>Country: {address.country}</li>
+                <li>City: {address.city}</li>
+                <li>PostCode: {address.postcode}</li>
+            </ul>
+        </div>
+        <lightning-input class="input"
+                        type="text"
+                        onchange={setCountry}
+                        placeholder="Country">
+        </lightning-input>
+        <lightning-input class="input"
+                        type="text"
+                        onchange={setCity}
+                        placeholder="City">
+        </lightning-input>
+        <lightning-input class="input"
+                        type="text"
+                        onchange={setPostCode}
+                        placeholder="PostCode">
+        </lightning-input>
+        <div class="button-container">
+            <button class="btn" onclick={changeName}>Submit</button>
+        </div>
+    </div>
+</lightning-card>
+
+<lightning-card title="Getter">
+    <div class="slds-var-m-around_medium">
+        <div>
+            {firstUser}
+            {multiple}
+        </div>
+        <div class="inputs">
+            <!-- <lightning-input type="text" onchange={newFirstUser}></lightning-input> -->
+        </div>
+    </div>
+
+</lightning-card>
+</template>

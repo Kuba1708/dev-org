@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default</fullName>
+    <active>true</active>
+    <label>Default</label>
+    <picklistValues>
+        <picklist>Manufacturer_Name__c</picklist>
+        <values>
+            <fullName>All We Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B%2E Braun</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coloplast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convatec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dansac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eakin %2F Pelican</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eurotec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hollister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marlen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OxMed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welland</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Name__c</picklist>
+        <values>
+            <fullName>Alterna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alterna Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assura sense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aurum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aurum Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aurum Xtra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aurum2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B%2EBraun stomacare gordel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brava</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colomate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CombiMate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CombiMate extra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Combihesive 2S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confidence BE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confidence Natural</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confidence comfort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conform2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consecura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conveen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corsinel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Curvex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Durahesive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eakin Dot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easiflex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esteem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esteem Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esteem Synergy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flair Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flair2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FlexiMate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FlexiMate SuperFlex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FlexiMate SuperSoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freeform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harmony Duo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High flow collector</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ileomate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LaproCare Comfort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LaproCare Flexible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LaproCare Sensitive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liberty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liberty2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MaxPlus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderma Flex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natura%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Image</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nova 1 X3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nova Soft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nova1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nova2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NovaLife TRE 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NovaLife TRE 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Optum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pelican ModaVi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pelican Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pelican Select</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sac bleu wegwerpzakje</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensura Flex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensura Mio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small rigid clamp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softima</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softima 3S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softima active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softima key</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Superflat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UltraMax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UltraMax Gemini</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urodress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uromate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZenSiv</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>minimax</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Therapy_Type__c</picklist>
+        <values>
+            <fullName>Stoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urinary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

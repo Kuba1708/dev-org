@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Italy</fullName>
+    <active>true</active>
+    <label>Italy</label>
+    <picklistValues>
+        <picklist>Manufacturer_Name__c</picklist>
+        <values>
+            <fullName>B%2E Braun</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coloplast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convatec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dansac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hollister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welland</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Name__c</picklist>
+        <values>
+            <fullName>Alterna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aurum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CeraPlus Moderma Flex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conform2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Durahesive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esteem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esteem Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fleixma Active O%27 Convex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fleixma Key</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flexima</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flexima 3S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flexima Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderma Flex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natura%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Image</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NovaLife 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NovaLife 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NovaLife TRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensura Mio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stomadress Plus</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Therapy_Type__c</picklist>
+        <values>
+            <fullName>Stoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urinary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

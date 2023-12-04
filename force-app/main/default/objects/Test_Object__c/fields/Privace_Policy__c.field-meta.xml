@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Privace_Policy__c</fullName>
+    <defaultValue>&quot;I authorise B. Braun Avitum to hold and use my Personal Data in accordance with the General Data Protection Regulations ((EU) 2016/679) (and any local UK iterations or enactments), including information to be sent by secure means to a third party where necessary for the purpose of supplying medicines to me and advising on their use.&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Privace Policy</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Manufacturer_Name__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alterna</fullName>
+                <default>false</default>
+                <label>Alterna</label>
+            </value>
+            <value>
+                <fullName>Alterna Plus</fullName>
+                <default>false</default>
+                <label>Alterna Plus</label>
+            </value>
+            <value>
+                <fullName>Assura</fullName>
+                <default>false</default>
+                <label>Assura</label>
+            </value>
+            <value>
+                <fullName>Assura sense</fullName>
+                <default>false</default>
+                <label>Assura sense</label>
+            </value>
+            <value>
+                <fullName>Aurum</fullName>
+                <default>false</default>
+                <label>Aurum</label>
+            </value>
+            <value>
+                <fullName>Aurum2</fullName>
+                <default>false</default>
+                <label>Aurum2</label>
+            </value>
+            <value>
+                <fullName>Aurum Plus</fullName>
+                <default>false</default>
+                <label>Aurum Plus</label>
+            </value>
+            <value>
+                <fullName>Aurum Xtra</fullName>
+                <default>false</default>
+                <label>Aurum Xtra</label>
+            </value>
+            <value>
+                <fullName>B.Braun stomacare gordel</fullName>
+                <default>false</default>
+                <label>B.Braun stomacare gordel</label>
+            </value>
+            <value>
+                <fullName>Brava</fullName>
+                <default>false</default>
+                <label>Brava</label>
+            </value>
+            <value>
+                <fullName>Colomate</fullName>
+                <default>false</default>
+                <label>Colomate</label>
+            </value>
+            <value>
+                <fullName>Combihesive 2S</fullName>
+                <default>false</default>
+                <label>Combihesive 2S</label>
+            </value>
+            <value>
+                <fullName>CombiMate</fullName>
+                <default>false</default>
+                <label>CombiMate</label>
+            </value>
+            <value>
+                <fullName>CombiMate extra</fullName>
+                <default>false</default>
+                <label>CombiMate extra</label>
+            </value>
+            <value>
+                <fullName>Compact</fullName>
+                <default>false</default>
+                <label>Compact</label>
+            </value>
+            <value>
+                <fullName>Confidence</fullName>
+                <default>false</default>
+                <label>Confidence</label>
+            </value>
+            <value>
+                <fullName>Confidence BE</fullName>
+                <default>false</default>
+                <label>Confidence BE</label>
+            </value>
+            <value>
+                <fullName>Confidence comfort</fullName>
+                <default>false</default>
+                <label>Confidence comfort</label>
+            </value>
+            <value>
+                <fullName>Confidence Natural</fullName>
+                <default>false</default>
+                <label>Confidence Natural</label>
+            </value>
+            <value>
+                <fullName>Conform2</fullName>
+                <default>false</default>
+                <label>Conform2</label>
+            </value>
+            <value>
+                <fullName>Consecura</fullName>
+                <default>false</default>
+                <label>Consecura</label>
+            </value>
+            <value>
+                <fullName>Conveen</fullName>
+                <default>false</default>
+                <label>Conveen</label>
+            </value>
+            <value>
+                <fullName>Corsinel</fullName>
+                <default>false</default>
+                <label>Corsinel</label>
+            </value>
+            <value>
+                <fullName>Curvex</fullName>
+                <default>false</default>
+                <label>Curvex</label>
+            </value>
+            <value>
+                <fullName>Durahesive</fullName>
+                <default>false</default>
+                <label>Durahesive</label>
+            </value>
+            <value>
+                <fullName>Eakin Dot</fullName>
+                <default>false</default>
+                <label>Eakin Dot</label>
+            </value>
+            <value>
+                <fullName>Easiflex</fullName>
+                <default>false</default>
+                <label>Easiflex</label>
+            </value>
+            <value>
+                <fullName>Esteem</fullName>
+                <default>false</default>
+                <label>Esteem</label>
+            </value>
+            <value>
+                <fullName>Esteem Plus</fullName>
+                <default>false</default>
+                <label>Esteem Plus</label>
+            </value>
+            <value>
+                <fullName>Esteem Synergy</fullName>
+                <default>false</default>
+                <label>Esteem Synergy</label>
+            </value>
+            <value>
+                <fullName>Flair2</fullName>
+                <default>false</default>
+                <label>Flair2</label>
+            </value>
+            <value>
+                <fullName>Flair Active</fullName>
+                <default>false</default>
+                <label>Flair Active</label>
+            </value>
+            <value>
+                <fullName>FlexiMate</fullName>
+                <default>false</default>
+                <label>FlexiMate</label>
+            </value>
+            <value>
+                <fullName>FlexiMate SuperFlex</fullName>
+                <default>false</default>
+                <label>FlexiMate SuperFlex</label>
+            </value>
+            <value>
+                <fullName>FlexiMate SuperSoft</fullName>
+                <default>false</default>
+                <label>FlexiMate SuperSoft</label>
+            </value>
+            <value>
+                <fullName>Freeform</fullName>
+                <default>false</default>
+                <label>Freeform</label>
+            </value>
+            <value>
+                <fullName>Harmony Duo</fullName>
+                <default>false</default>
+                <label>Harmony Duo</label>
+            </value>
+            <value>
+                <fullName>High flow collector</fullName>
+                <default>false</default>
+                <label>High flow collector</label>
+            </value>
+            <value>
+                <fullName>Ileomate</fullName>
+                <default>false</default>
+                <label>Ileomate</label>
+            </value>
+            <value>
+                <fullName>LaproCare Comfort</fullName>
+                <default>false</default>
+                <label>LaproCare Comfort</label>
+            </value>
+            <value>
+                <fullName>LaproCare Flexible</fullName>
+                <default>false</default>
+                <label>LaproCare Flexible</label>
+            </value>
+            <value>
+                <fullName>LaproCare Sensitive</fullName>
+                <default>false</default>
+                <label>LaproCare Sensitive</label>
+            </value>
+            <value>
+                <fullName>Liberty</fullName>
+                <default>false</default>
+                <label>Liberty</label>
+            </value>
+            <value>
+                <fullName>Liberty2</fullName>
+                <default>false</default>
+                <label>Liberty2</label>
+            </value>
+            <value>
+                <fullName>MaxPlus</fullName>
+                <default>false</default>
+                <label>MaxPlus</label>
+            </value>
+            <value>
+                <fullName>minimax</fullName>
+                <default>false</default>
+                <label>minimax</label>
+            </value>
+            <value>
+                <fullName>Moderma</fullName>
+                <default>false</default>
+                <label>Moderma</label>
+            </value>
+            <value>
+                <fullName>Moderma Flex</fullName>
+                <default>false</default>
+                <label>Moderma Flex</label>
+            </value>
+            <value>
+                <fullName>Natura</fullName>
+                <default>false</default>
+                <label>Natura</label>
+            </value>
+            <value>
+                <fullName>Natura+</fullName>
+                <default>false</default>
+                <label>Natura+</label>
+            </value>
+            <value>
+                <fullName>New Image</fullName>
+                <default>false</default>
+                <label>New Image</label>
+            </value>
+            <value>
+                <fullName>Nova1</fullName>
+                <default>false</default>
+                <label>Nova1</label>
+            </value>
+            <value>
+                <fullName>Nova 1 X3</fullName>
+                <default>false</default>
+                <label>Nova 1 X3</label>
+            </value>
+            <value>
+                <fullName>Nova2</fullName>
+                <default>false</default>
+                <label>Nova2</label>
+            </value>
+            <value>
+                <fullName>NovaLife TRE 1</fullName>
+                <default>false</default>
+                <label>NovaLife TRE 1</label>
+            </value>
+            <value>
+                <fullName>NovaLife TRE 2</fullName>
+                <default>false</default>
+                <label>NovaLife TRE 2</label>
+            </value>
+            <value>
+                <fullName>Nova Soft</fullName>
+                <default>false</default>
+                <label>Nova Soft</label>
+            </value>
+            <value>
+                <fullName>Optum</fullName>
+                <default>false</default>
+                <label>Optum</label>
+            </value>
+            <value>
+                <fullName>Pelican ModaVi</fullName>
+                <default>false</default>
+                <label>Pelican ModaVi</label>
+            </value>
+            <value>
+                <fullName>Pelican Platinum</fullName>
+                <default>false</default>
+                <label>Pelican Platinum</label>
+            </value>
+            <value>
+                <fullName>Pelican Select</fullName>
+                <default>false</default>
+                <label>Pelican Select</label>
+            </value>
+            <value>
+                <fullName>Premier</fullName>
+                <default>false</default>
+                <label>Premier</label>
+            </value>
+            <value>
+                <fullName>Sac bleu wegwerpzakje</fullName>
+                <default>false</default>
+                <label>Sac bleu wegwerpzakje</label>
+            </value>
+            <value>
+                <fullName>Sensura</fullName>
+                <default>false</default>
+                <label>Sensura</label>
+            </value>
+            <value>
+                <fullName>Sensura Flex</fullName>
+                <default>false</default>
+                <label>Sensura Flex</label>
+            </value>
+            <value>
+                <fullName>Sensura Mio</fullName>
+                <default>false</default>
+                <label>Sensura Mio</label>
+            </value>
+            <value>
+                <fullName>Small rigid clamp</fullName>
+                <default>false</default>
+                <label>Small rigid clamp</label>
+            </value>
+            <value>
+                <fullName>Softima</fullName>
+                <default>false</default>
+                <label>Softima</label>
+            </value>
+            <value>
+                <fullName>Softima 3S</fullName>
+                <default>false</default>
+                <label>Softima 3S</label>
+            </value>
+            <value>
+                <fullName>Softima active</fullName>
+                <default>false</default>
+                <label>Softima active</label>
+            </value>
+            <value>
+                <fullName>Softima key</fullName>
+                <default>false</default>
+                <label>Softima key</label>
+            </value>
+            <value>
+                <fullName>Superflat</fullName>
+                <default>false</default>
+                <label>Superflat</label>
+            </value>
+            <value>
+                <fullName>UltraMax</fullName>
+                <default>false</default>
+                <label>UltraMax</label>
+            </value>
+            <value>
+                <fullName>UltraMax Gemini</fullName>
+                <default>false</default>
+                <label>UltraMax Gemini</label>
+            </value>
+            <value>
+                <fullName>Urodress</fullName>
+                <default>false</default>
+                <label>Urodress</label>
+            </value>
+            <value>
+                <fullName>Uromate</fullName>
+                <default>false</default>
+                <label>Uromate</label>
+            </value>
+            <value>
+                <fullName>ZenSiv</fullName>
+                <default>false</default>
+                <label>ZenSiv</label>
+            </value>
+            <value>
+                <fullName>Stomadress Plus</fullName>
+                <default>false</default>
+                <label>Stomadress Plus</label>
+            </value>
+            <value>
+                <fullName>CeraPlus</fullName>
+                <default>false</default>
+                <label>CeraPlus</label>
+            </value>
+            <value>
+                <fullName>Forma Flex</fullName>
+                <default>false</default>
+                <label>Forma Flex</label>
+            </value>
+            <value>
+                <fullName>CeraPlus Moderma Flex</fullName>
+                <default>false</default>
+                <label>CeraPlus Moderma Flex</label>
+            </value>
+            <value>
+                <fullName>NovaLife 1</fullName>
+                <default>false</default>
+                <label>NovaLife 1</label>
+            </value>
+            <value>
+                <fullName>NovaLife 2</fullName>
+                <default>false</default>
+                <label>NovaLife 2</label>
+            </value>
+            <value>
+                <fullName>NovaLife TRE</fullName>
+                <default>false</default>
+                <label>NovaLife TRE</label>
+            </value>
+            <value>
+                <fullName>Flexima</fullName>
+                <default>false</default>
+                <label>Flexima</label>
+            </value>
+            <value>
+                <fullName>Flexima Active</fullName>
+                <default>false</default>
+                <label>Flexima Active</label>
+            </value>
+            <value>
+                <fullName>Fleixma Active O&apos; Convex</fullName>
+                <default>false</default>
+                <label>Fleixma Active O&apos; Convex</label>
+            </value>
+            <value>
+                <fullName>Fleixma Key</fullName>
+                <default>false</default>
+                <label>Fleixma Key</label>
+            </value>
+            <value>
+                <fullName>Flexima 3S</fullName>
+                <default>false</default>
+                <label>Flexima 3S</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Salt</controllingFieldValue>
+            <valueName>Confidence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salt</controllingFieldValue>
+            <valueName>Confidence BE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salt</controllingFieldValue>
+            <valueName>Confidence comfort</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salt</controllingFieldValue>
+            <valueName>Confidence Natural</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salt</controllingFieldValue>
+            <valueName>Harmony Duo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welland</controllingFieldValue>
+            <valueName>Aurum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welland</controllingFieldValue>
+            <valueName>Aurum2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welland</controllingFieldValue>
+            <valueName>Aurum Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welland</controllingFieldValue>
+            <valueName>Aurum Xtra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welland</controllingFieldValue>
+            <valueName>Curvex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welland</controllingFieldValue>
+            <valueName>Flair2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welland</controllingFieldValue>
+            <valueName>Flair Active</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welland</controllingFieldValue>
+            <valueName>Freeform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welland</controllingFieldValue>
+            <valueName>Liberty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welland</controllingFieldValue>
+            <valueName>Liberty2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welland</controllingFieldValue>
+            <valueName>Optum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>All We Care</controllingFieldValue>
+            <valueName>Corsinel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>All We Care</controllingFieldValue>
+            <valueName>LaproCare Comfort</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>All We Care</controllingFieldValue>
+            <valueName>LaproCare Flexible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>All We Care</controllingFieldValue>
+            <valueName>LaproCare Sensitive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>B.Braun stomacare gordel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>High flow collector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>Sac bleu wegwerpzakje</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>Small rigid clamp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>Softima</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>Softima 3S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>Softima active</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>Softima key</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>Flexima</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>Flexima Active</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>Fleixma Active O&apos; Convex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>Fleixma Key</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Braun</controllingFieldValue>
+            <valueName>Flexima 3S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coloplast</controllingFieldValue>
+            <valueName>Alterna</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coloplast</controllingFieldValue>
+            <valueName>Alterna Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coloplast</controllingFieldValue>
+            <valueName>Assura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coloplast</controllingFieldValue>
+            <valueName>Assura sense</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coloplast</controllingFieldValue>
+            <valueName>Brava</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coloplast</controllingFieldValue>
+            <valueName>Conveen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coloplast</controllingFieldValue>
+            <valueName>Easiflex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coloplast</controllingFieldValue>
+            <valueName>Sensura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coloplast</controllingFieldValue>
+            <valueName>Sensura Flex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coloplast</controllingFieldValue>
+            <valueName>Sensura Mio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Convatec</controllingFieldValue>
+            <valueName>Combihesive 2S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Convatec</controllingFieldValue>
+            <valueName>Consecura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Convatec</controllingFieldValue>
+            <valueName>Durahesive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Convatec</controllingFieldValue>
+            <valueName>Esteem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Convatec</controllingFieldValue>
+            <valueName>Esteem Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Convatec</controllingFieldValue>
+            <valueName>Esteem Synergy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Convatec</controllingFieldValue>
+            <valueName>Natura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Convatec</controllingFieldValue>
+            <valueName>Natura+</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Convatec</controllingFieldValue>
+            <valueName>Urodress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Convatec</controllingFieldValue>
+            <valueName>Stomadress Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dansac</controllingFieldValue>
+            <valueName>Nova1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dansac</controllingFieldValue>
+            <valueName>Nova 1 X3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dansac</controllingFieldValue>
+            <valueName>Nova2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dansac</controllingFieldValue>
+            <valueName>NovaLife TRE 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dansac</controllingFieldValue>
+            <valueName>NovaLife TRE 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dansac</controllingFieldValue>
+            <valueName>Nova Soft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dansac</controllingFieldValue>
+            <valueName>NovaLife 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dansac</controllingFieldValue>
+            <valueName>NovaLife 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dansac</controllingFieldValue>
+            <valueName>NovaLife TRE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eakin / Pelican</controllingFieldValue>
+            <valueName>Eakin Dot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eakin / Pelican</controllingFieldValue>
+            <valueName>Pelican ModaVi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eakin / Pelican</controllingFieldValue>
+            <valueName>Pelican Platinum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eakin / Pelican</controllingFieldValue>
+            <valueName>Pelican Select</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eurotec</controllingFieldValue>
+            <valueName>Colomate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eurotec</controllingFieldValue>
+            <valueName>CombiMate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eurotec</controllingFieldValue>
+            <valueName>CombiMate extra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eurotec</controllingFieldValue>
+            <valueName>FlexiMate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eurotec</controllingFieldValue>
+            <valueName>FlexiMate SuperFlex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eurotec</controllingFieldValue>
+            <valueName>FlexiMate SuperSoft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eurotec</controllingFieldValue>
+            <valueName>Ileomate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eurotec</controllingFieldValue>
+            <valueName>Uromate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hollister</controllingFieldValue>
+            <valueName>Compact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hollister</controllingFieldValue>
+            <valueName>Conform2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hollister</controllingFieldValue>
+            <valueName>Moderma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hollister</controllingFieldValue>
+            <valueName>Moderma Flex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hollister</controllingFieldValue>
+            <valueName>New Image</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hollister</controllingFieldValue>
+            <valueName>Premier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hollister</controllingFieldValue>
+            <valueName>CeraPlus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hollister</controllingFieldValue>
+            <valueName>Forma Flex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hollister</controllingFieldValue>
+            <valueName>CeraPlus Moderma Flex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marlen</controllingFieldValue>
+            <valueName>MaxPlus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marlen</controllingFieldValue>
+            <valueName>minimax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marlen</controllingFieldValue>
+            <valueName>Superflat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marlen</controllingFieldValue>
+            <valueName>UltraMax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marlen</controllingFieldValue>
+            <valueName>UltraMax Gemini</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OxMed</controllingFieldValue>
+            <valueName>ZenSiv</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<template>
+    <lightning-card>
+        <div class="container">
+
+            <lightning-button  class="slds-button showData" if:true={btnVisible} onclick={showData} label="Show Data"></lightning-button>
+            <lightning-button  class="slds-button showData" if:false={btnVisible} onclick={showData} label="Hide Data"></lightning-button>
+        </div>
+    </lightning-card>
+</template>

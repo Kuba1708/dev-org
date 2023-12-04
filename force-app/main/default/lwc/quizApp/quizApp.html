@@ -1,0 +1,23 @@
+<template>
+    <lightning-card class="slds-m-horizontal_xx-large">
+        <template if:true={isSubmitted}>
+            <div class={isScoredFull} >You have scored {correctAnswers} correct answers! You passed the exam!</div>
+        </template>
+       
+        <form>
+        <template for:each={myQuestions} for:item="task">
+            <div key={task.id} class="slds-m-left_x-small">
+                <h1><strong>{task.question}</strong></h1>
+                
+                <div class="ans-a slds-m-around_xx-small"><input type="radio" name={task.id} value="a" onchange={changeHandler}/> {task.answers.a}</div>
+                <div class="ans-b slds-m-around_xx-small slds-m-top_xx-small"><input type="radio" name={task.id} value="b" onchange={changeHandler}/> {task.answers.b}</div>
+                <div class="ans-c slds-m-around_xx-small slds-m-top_xx-small"><input type="radio" name={task.id} value="c" onchange={changeHandler}/> {task.answers.c}</div>
+            </div>
+        </template>
+        <div class="buttons-container slds-m-left_small slds-m-top_x-small">
+            <lightning-button class="slds-m-horizontal_xxx-small" variant="brand" type="submit" label="submit" title="Submit Quiz" disabled={allNotSelected} onclick={submitHandler}></lightning-button>
+            <lightning-button class="slds-m-left_small" variant="brand" type="reset" label="reset" title="Reset Quiz" onclick={resetHandler}></lightning-button>
+        </div>
+    </form>
+    </lightning-card>
+</template>
